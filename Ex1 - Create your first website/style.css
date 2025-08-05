@@ -1,0 +1,19 @@
+* {
+    font-family: Arial;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.styledParagraph {
+    background-color: pink;
+    color: purple;
+}
+
+#listContainer {
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 30px;
+    margin: 20px 40px;
+}
