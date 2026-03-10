@@ -93,6 +93,16 @@ This link element tells our HTML file to find the style.css and read it as a sty
 
 The simplist way to add CSS is to assign it to the element. This will mean that all elements of that type will have the styles. We can also add CSS universially using an *
 
+Let's first test that our style sheet is connected to our HTML file. The easiest way to check this is to change the background colour of our webpage to something outrageous
+
+```
+body {
+    background-color: red
+}
+```
+
+Universal and element specific styles
+
 ```
 * {
     font-family: Arial;
