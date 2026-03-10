@@ -108,7 +108,7 @@ Another way we can add CSS is to give the HTML elements a class or id. For examp
 ```
 <div class="contentBlock">This div has a class</div>
 
-<div id="navidation">This div has an id</div>
+<div id="navigation">This div has an id</div>
 ```
 
 We can add CSS for this using . for class names and # for id names
