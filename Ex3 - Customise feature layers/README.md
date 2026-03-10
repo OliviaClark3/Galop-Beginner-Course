@@ -25,7 +25,7 @@ Tips:
 
 Next we will add another feature layer to our map
 
-1. Using this tutorial (https://developers.arcgis.com/javascript/latest/tutorials/add-a-feature-layer/), add this Nelson Huts feature layer (https://eaglelabs.maps.arcgis.com/home/item.html?id=ba05bf96c42f437799e324591ecfafbf) to your map. You will need to:
+1. Using this tutorial (https://developers.arcgis.com/javascript/latest/tutorials/add-a-feature-layer/), add this Marlborough Freedom Camping Sites feature layer (https://gis.marlborough.govt.nz/server/rest/services/OpenData/OpenData2/MapServer/8) to your map. You will need to:
     - Import the Feature Layer module
     - Create a variable that defines the feature layer
     - Add the feature layer to the map
@@ -45,16 +45,16 @@ The layers we have added are from existing feature layers, so come with their de
 
 This tutorial (https://developers.arcgis.com/javascript/latest/tutorials/style-a-feature-layer/) shows you how to create your own renderer for a feature layer. The renderer defines how the feature layer will be displayed on the map, and what symbology it will use.
 
-We are going to change our huts symbology to an Esri web style symbol. Although this is specifically walked through in this tutorial, it may still be a useful reference
+We are going to change our camping sites symbology to an Esri web style symbol. Although this isn't specifically walked through in this tutorial, it may still be a useful reference
 
-3. Choose a symbol from this page (https://developers.arcgis.com/javascript/latest/visualization/symbols-color-ramps/esri-web-style-symbols-2d/) that you want to represent your huts. Click on it to show the code for the symbol
+1. Choose a symbol from this page (https://developers.arcgis.com/javascript/latest/visualization/symbols-color-ramps/esri-web-style-symbols-2d/) that you want to represent your huts. Click on it to show the code for the symbol
 
-4. Add the code for the symbol to your JavaScript file, and rename the variable
+2. Add the code for the symbol to your JavaScript file, and rename the variable
 
-5. Create the renderer, setting the type to 'simple' and the web style symbol you just added as your symbol
+3. Create the renderer, setting the type to 'simple' and the web style symbol you just added as your symbol
 
-6. Add the renderer to your huts feature layer
+4. Add the renderer to your camping sites feature layer
 
-7. Now on your own, replace the symbology for the feature layer you added yourself. Be sure to choose the correct symbology type for whether it is a point, line, or polygon layer
+5. Now on your own, replace the symbology for the feature layer you added yourself. Be sure to choose the correct symbology type for whether it is a point, line, or polygon layer
 
-    Bonus task: Using the Style a Feature Layer documentation from above, set the height and width of your renderer symbol
+    Bonus task: Using the 'Style a Feature Layer' documentation from above, set the height and width of your renderer symbol

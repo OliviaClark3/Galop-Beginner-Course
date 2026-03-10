@@ -27,19 +27,21 @@ To get any of the ArcGIS elements on our page, we will need to link our website 
 
 3. Select API Key Credentials and click Next
 
-4. Click Next on the Settings page
+4. Select Public Application and click Next
 
-5. On the Privileges page, enable everything and click next
+5. On the Item Access page, keep No Item Access selected and click Next
 
-6. Click skip on the Restrict Item Access page
+6. On the Privleges page, enable all privleges
 
-7. Add a title for your API key and other information you want and click next
+7. Click Next on the Settings page
 
-8. Tick the checkbox on the Summary page and click next
+8. Add a title for your API key and other information you want and click next
 
-9. Click next on the Generate API key page
+9. Click Next on the Summary page
 
-10. Copy your API key and paste it somewhere safe where you will be able to find it again late. Once you close this window you will not be able to get the API key again and will have to create a new one if you lose it
+10. Click Next on the Generate API key page
+
+11. Copy your API key and paste it somewhere safe where you will be able to find it again late. Once you close this window you will not be able to get the API key again and will have to create a new one if you lose it
 
 The API key acts as a license to be able to access the JavaScript SDK and should be treated like a password. In this case we have given it full access to privileges and content. If using this for work purposes you may wish to create a more secure API key for just the functionality that is required
 
@@ -83,6 +85,7 @@ Now that we know how to make a website and have access to the ArcGIS JavaScript 
 2. Add some CSS to give the body element a height of 100% and margins of 0.
 
 3. Using this tutorial for guidance (https://developers.arcgis.com/javascript/latest/tutorials/display-a-web-map/) display a map on your website. You will need to:
-    - Add references to the JavaScript SDK
+    - Add the reference to the JavaScript SDK
+    - Add the necessary styles our CSS file
     - Add the map component
     - Add the legend and zoom components
